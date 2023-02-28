@@ -2,7 +2,7 @@ void main(){
   // unorder collection of unique items
   // no doblication in SET
   // values wil be  unique
-  /*
+  
   var st  = {'Hamza', 'Rafique', 'Ramay'};
   var st1 = {4,5,'Hamza', 'Rafique', 'Ramay'};
   //when you want to make set strickt to get specific type data
@@ -13,7 +13,7 @@ void main(){
   print(st2);
   print(st.runtimeType);
   print(st1.runtimeType);
-  */
+  
 
 
 
@@ -27,17 +27,17 @@ void main(){
   because this will make a map instead of set
   
   */
-  // var st3 = <int>{};
-  // print(st3);
+  var st3 = <int>{};
+  print(st3);
 
 
 
 
   // ## add data in empty set
 
-  // var p = <String>{};
-  // p.add('Flutter');
-  // print(p);
+  var p = <String>{};
+  p.add('Flutter');
+  print(p);
 
 
 
