@@ -16,7 +16,7 @@ void main(){
 
   // //## Map Literals
   // Method 1 .... of writing map
-  /*
+  
   var mp = {
     'name' : 'Hamza',
     'city' : 'Sahiwal',
@@ -39,11 +39,11 @@ void main(){
   print(mp);
   print(mp1);
   print(list);
-  */
+  
 
 
   //## Empty Map
-  /*
+  
   //Method 1 of writing empty map
   var mp2 = Map();
   //Method 2 of writing empty map
@@ -54,21 +54,21 @@ void main(){
   print(mp2.runtimeType);
   print(mp3.runtimeType);
   print(mp4.runtimeType);
-  */
+  
 
 
 
   //## Add Values in map
-  /*
+  
   var mp5 = {};
   //     key   =  values
   mp5 ['name'] = 'Hamza';
   mp5 ['city'] = 'Sahiwal';
   print(mp5);
-  */
+  
 
   // ## Accessing map elements
-  /*
+  
    var mp6 = {
     'name' : 'Hamza',
     'city' : 'Sahiwal',
@@ -77,7 +77,7 @@ void main(){
 
   print(mp6['name']);
   print(mp6['city']);
-   */
+   
 
 
 
