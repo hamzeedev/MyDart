@@ -59,16 +59,50 @@ void main(){
   //it is helpful for fyp.............
  
 //                        [String? reg_no] -> this is type of optional parameter and if we look at defining there is no value
- /* String data(String name, [String? reg_no]){
+/*  String data(String name, [String? reg_no]){
 
   return 'Student name is $name and Student Registration # is $reg_no ';
 
  }
 
  var display = data('Hamza',);
- print(display);
+ print(display); */
+
+ // Extra example ===== IMPORTAN & HELPFUL =====
+/*  String intro(String name, [String? reg_no]){
+
+if (reg_no != null) {
+    return 'Student name is $name and Student Registration # is $reg_no '; 
+}
+return 'You have only given name and name is $name';
+
+ }
+
+ var show = intro('Zaeem', 'Sp20-bse-040');
+ print(show); */
+
+
+
+// ### witn default value parameter
+//                           [String? campus = 'Islamabad'] -> optional parameter with default value
+/* String data1(String name, [String? campus = 'Islamabad']){
+
+  return 'Student name is $name and this student is from $campus campus ';
+
+ }
+
+ var display1 = data1('Hamza',);
+ print(display1);
  */
 
+
+
+// ## named parameter
+adddata({a,b}){
+  print('a = $a');
+  print('b = $b');
+}
+adddata(b:10,a:20);
 
   
 }
