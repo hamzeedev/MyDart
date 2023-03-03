@@ -98,11 +98,23 @@ return 'You have only given name and name is $name';
 
 
 // ## named parameter
-adddata({a,b}){
+/* adddata({a,b}){
   print('a = $a');
   print('b = $b');
 }
-adddata(b:10,a:20);
+adddata(b:10,a:20); */
+
+
+
+//anonymus function.... jis function ka koi name na ho
+
+  var students = ['hamza', 'zaeem','adeel'];
+  students.forEach(
+  //(element)-> this is anonymus function  
+    (element) { 
+      print(element);
+    });
+
 
   
 }
