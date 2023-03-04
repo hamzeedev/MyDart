@@ -23,6 +23,7 @@ void main(){
   print(suzuki.cc);
 
 }
+// Example # 01
 //this class is like protoType in company can use it
 class Mobile{
   //instance variable
@@ -35,7 +36,7 @@ class Mobile{
   }
 }
 
-//another example of clsss
+// Example # 02
 class CarDetail{
   late String CarName;
   late String CarCompany;
