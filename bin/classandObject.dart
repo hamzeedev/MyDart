@@ -15,6 +15,12 @@ void main(){
   var apple =  Mobile();
   apple.showModel('Iphone 13');
 
+  //accesing static variable using class name
+  print(Mobile.memory);
+  //calling static method using class name
+  var total_memory = Mobile.addExtraMemory(8);
+  print(total_memory);
+
 
   //object of 2nd example
   var suzuki = CarDetail();
@@ -27,12 +33,27 @@ void main(){
 //this class is like protoType in company can use it
 class Mobile{
   //instance variable
+  /* 
+  why use late in below?
+  -> because all this instance variables that are un-intialized are null by default..
+   */
   late String model1;
 
-//instance method
+//instance method... function ko jub class mai likhain to ( method ) khty hain
+// md -> parameter h 
   showModel(md){
     model1 = md;
     print(model1);
+  }
+
+  //static variables
+  static int memory = 12;
+
+  //static method
+  static addExtraMemory(extra){
+    memory = extra;
+    return memory;
+
   }
 }
 
